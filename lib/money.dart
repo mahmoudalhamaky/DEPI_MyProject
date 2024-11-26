@@ -10,14 +10,18 @@ class money extends StatefulWidget {
 class _moneyState extends State<money> {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Text('Money Tracking',
-            style: TextStyle(color: Colors.yellow, fontSize: 22)),
-        SizedBox(
-          height: 20,
-        ),
-      ],
+    return Scaffold(
+      appBar: AppBar(),
+       body:
+       Column(
+        children: [
+          Text('Money Tracking',
+              style: TextStyle(color: Colors.yellow, fontSize: 22)),
+          SizedBox(
+            height: 20,
+          ),
+        ],
+      ),
     );
   }
 }
